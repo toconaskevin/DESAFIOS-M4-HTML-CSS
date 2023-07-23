@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');        @font-face {
+            font-family: 'Coolvetica';
+            src: url(./fonts/coolvetica_rg.otf);
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            font-family: 'Coolvetica', sans-serif;
+            font-weight: 400;
+            font-size: 120px;
+            color: #0a2ff1;
+            margin: 0px 0px 50px 0px;
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 40px;
+            color: #04146c;
+            margin: 0px 0px 30px 0px;
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        main article {
+            width: 25%;
+            margin: 0px 20px;
+            padding: 1em;
+            background-color: #eff2ff;
+        }
+        main article .star-rating {
+            width: 30%;
+        }
+        main article .reviewer {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            color: #04146c;
+        }
+        main article .title {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 24px;
+            color: #04146c;
+        }
+        main article .comments {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            color: #04146c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Somos geniales!</h1>
+        <h2>No lo decimos nosotrxs, <strong>lo dicen nuestrxs usuarixs.</strong> ¿Aún no nos crees? ¡Compruébalo!</h2>
+    </header>
+    <main>
+        <article>
+            <img class="star-rating" src="./img/D1E3-cincoestrellas.png" alt="5-estrellas">
+            <p class="reviewer"><em>José Perez, Argentina</em></p>
+            <p class="title"><strong>El mejor gestor de paletas</strong></p>
+            <p class="comments">Fácil de usar y con excelentes resultados siempre. ¡Súper recomendable! Ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci wisi enim ad minim veniam.</p>
+        </article>
+        <article>
+            <img class="star-rating" src="./img/D1E3-casicincoestrellas.png" alt="casi-5-estrellas">
+            <p class="reviewer"><em>Federico González, Uruguay</em></p>
+            <p class="title">Buenísima herramienta</p>
+            <p class="comments">¡Súper recomendable!  No les pongo 5 estrellas sólo porque no es gratis, ja. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet ert volutpat.</p>
+        </article>
+        <article>
+            <img class="star-rating" src="./img/D1E3-casicincoestrellas.png" alt="5-estrellas">
+            <p class="reviewer"><em>Lola Winner, Chile</em></p>
+            <p class="title">Sin dudas, mi favorita</p>
+            <p class="comments">¡Se ha vuelto indispensable! Crece constantemente con el aporte de sus usuarios y sus combinaciones cromáticas alucinantes. ¡Súper recomendable! Ut laoreet dolore magna aliquam erat volutpat.</p>
+        </article>
+    </main>
+</body>
+</html>
